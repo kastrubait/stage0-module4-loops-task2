@@ -6,7 +6,7 @@ public class Multiplication {
         int whileCounter = 0;
         while (whileCounter <= Math.abs(multiplyByAndToInclusive)) {
             result = whileCounter * multiplyByAndToInclusive;
-            System.out.println(result);
+            if (result != 0) System.out.println(result);
             whileCounter++;
         }
     }
