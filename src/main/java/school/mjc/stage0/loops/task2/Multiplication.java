@@ -5,10 +5,8 @@ public class Multiplication {
         int result;
         int whileCounter = 0;
         while (whileCounter <= Math.abs(multiplyByAndToInclusive)) {
-            result = multiplyByAndToInclusive < 0
-                    ? -1 * whileCounter * multiplyByAndToInclusive
-                    : whileCounter * multiplyByAndToInclusive;
-            System.out.println( result );
+            result = whileCounter * multiplyByAndToInclusive;
+            System.out.println(result);
             whileCounter++;
         }
     }
